@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/alert_confirm_prompt.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all_test.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canshuhua.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cejidingwei.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cookie.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cuowujietu.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dayini" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dengdaishijian.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingweizuduixiang.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/duihuakuang.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/duixiangshuxing.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/duoliulanqi.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fengcao.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fenye.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gundongtiao.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javascript.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiagou/baidu_read_date.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiagou/login.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiagou/loop_reader.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiagou/userinfo.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiagou/web.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jianpan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyunit/auto.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyunit/widget.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shangchuanwenjian.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_case.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_case/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_case/asd.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_case/baidu.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_case/youdao.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/time.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/try.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xialakuang.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiazaiwenjian.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yongli/deletefile.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yongli/login.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yongli/readname.py" charset="UTF-8" />
+  </component>
+</project>

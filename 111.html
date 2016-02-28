@@ -1,0 +1,64 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">  
+<HTML>  
+<HEAD>  
+<TITLE> 复选框的全选，多选，全不选，反选 </TITLE>  
+<META NAME="Generator" CONTENT="EditPlus">  
+<META NAME="Author" CONTENT="">  
+<META NAME="Keywords" CONTENT="">  
+<META NAME="Description" CONTENT="">  
+  
+  
+</HEAD>  
+  
+<BODY>  
+<!--复选框的全选，多选，全不选，反选   -->  
+<form name=hrong>    
+<input type=checkbox name=All onclick="checkAll('mm')">全选<br/>    
+<input type=checkbox name=mm onclick="checkItem('All')"><br/>    
+<input type=checkbox name=mm onclick="checkItem('All')"><br/>    
+<input type=checkbox name=mm onclick="checkItem('All')"><br/>    
+<input type=checkbox name=mm onclick="checkItem('All')"><br/>    
+<input type=checkbox name=mm onclick="checkItem('All')"><br/><br/>    
+  
+  
+<input type=checkbox name=All2 onclick="checkAll('mm2')">全选<br/>    
+<input type=checkbox name=mm2 onclick="checkItem('All2')"><br/>    
+<input type=checkbox name=mm2 onclick="checkItem('All2')"><br/>    
+<input type=checkbox name=mm2 onclick="checkItem('All2')"><br/>    
+<input type=checkbox name=mm2 onclick="checkItem('All2')"><br/>    
+<input type=checkbox name=mm2 onclick="checkItem('All2')"><br/>    
+  
+</form>    
+  
+<SCRIPT LANGUAGE="JavaScript">    
+function checkAll(str)    
+{    
+    var a = document.getElementsByName(str);    
+    var n = a.length;    
+    for (var i=0; i<n; i++)    
+    a[i].checked = window.event.srcElement.checked;    
+}    
+function checkItem(str)    
+{    
+    var e = window.event.srcElement;    
+    var all = eval("document.all."+ str);    
+    if (e.checked)    
+    {    
+        var a = document.getElementsByName(e.name);    
+        all.checked = true;    
+        for (var i=0; i<a.length; i++)    
+        {    
+            if (!a[i].checked)   
+            {    
+                all.checked = false; break;   
+            }    
+        }   
+    }    
+    else    
+        all.checked = false;    
+}   
+</SCRIPT>    
+  
+  
+</BODY>  
+</HTML>  

@@ -1,0 +1,30 @@
+from selenium import  webdriver
+from selenium.webdriver.common.keys import Keys
+driver = webdriver.Firefox()
+driver.get("http://reg.163.com/")
+#登录
+driver.find_element_by_id("username").clear()
+driver.find_element_by_id("username").send_keys("weiqi8811@163.com")
+driver.find_element_by_id("password").clear()
+driver.find_element_by_id("password").send_keys("weiqi7554")
+driver.find_element_by_id("loginBtn").click()
+#获得前面title，打印
+title =driver.title
+print(title)
+#拿当前URL与预期URL作比较
+if title== (u"kshi"):
+    print("跳转提示")
+else:
+    print("no")
+#获得当前页面的url，打印
+now_url = driver.current_url
+print (now_url)
+#拿当前的url与预期url作比较
+if now_url ==("http://reg.163.com/Main.jsp?username=weiqi8811"):
+    print("url ok")
+else:
+    print("url on")
+#获得登陆的用户，打印
+now_user =driver.find_element_by_xpath("/html/body/div[3]/div[1]/div[1]/div[2]/div[1]/span[1]").text
+print(now_user)
+driver.quit()
